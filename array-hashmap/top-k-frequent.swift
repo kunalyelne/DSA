@@ -28,3 +28,7 @@ func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
 
     return result
 }
+
+print(topKFrequent([1, 1, 1, 2, 2, 3], 2))  // [1,2]
+print(topKFrequent([1], 1))  // [1]
+print(topKFrequent([1, 2, 1, 2, 1, 2, 3, 1, 3, 2], 2))  // [1,2]
