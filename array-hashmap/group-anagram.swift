@@ -11,6 +11,6 @@ func groupAnagrams(_ strs: [String]) -> [[String]] {
     return Array(anagrams.values)
 }
 
-print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
-print([""])
-print(["a"])
+print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))  // [["bat"], ["tan", "nat"], ["eat", "tea", "ate"]]
+print([""])  // [""]
+print(["a"])  // ["a"]

@@ -1,5 +1,6 @@
 import Foundation
-func containsDuplicate(_ nums:[Int]) -> Bool {
+
+func containsDuplicate(_ nums: [Int]) -> Bool {
     var seen = Set<Int>()
     for num in nums {
         if seen.contains(num) {
@@ -10,5 +11,5 @@ func containsDuplicate(_ nums:[Int]) -> Bool {
     return false
 }
 
-print(containsDuplicate([1,2,3,4]))
-print(containsDuplicate([1,2,3,4,1]))
+print(containsDuplicate([1, 2, 3, 4]))  // false
+print(containsDuplicate([1, 2, 3, 4, 1]))  // true

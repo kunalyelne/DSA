@@ -22,5 +22,5 @@ func isAnagram(_ s: String, _ t: String) -> Bool {
     return true
 }
 
-print(isAnagram("anagram", "nagaram"))
-print(isAnagram("rat", "car"))
+print(isAnagram("anagram", "nagaram"))  // true
+print(isAnagram("rat", "car"))  // false
