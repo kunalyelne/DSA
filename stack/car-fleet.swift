@@ -13,7 +13,6 @@ func carFleet(_ target: Int, _ position: [Int], _ speed: [Int]) -> Int {
 
     for (p, s) in cars {
         while !time.isEmpty && Double(target - p) / Double(s) >= time.last! {
-
             time.removeLast()
         }
         time.append(Double(target - p) / Double(s))
