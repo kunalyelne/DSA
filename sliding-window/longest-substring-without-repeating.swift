@@ -1,6 +1,6 @@
 import Foundation
 
-func lengthOfLongestSubstring(_ s: String) -> Int {
+func lengthOfLongestSubstringWithoutRepeating(_ s: String) -> Int {
     var charSet = Set<Character>()
     var l = 0
     var res = 0
@@ -17,5 +17,5 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     return res
 }
 
-print(lengthOfLongestSubstring("abcabcbb"))  // 3
-print(lengthOfLongestSubstring("pwwkew"))  // 3
+print(lengthOfLongestSubstringWithoutRepeating("abcabcbb"))  // 3
+print(lengthOfLongestSubstringWithoutRepeating("pwwkew"))  // 3
